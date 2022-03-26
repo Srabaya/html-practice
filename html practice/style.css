@@ -1,0 +1,108 @@
+o* {
+  margin: 0;
+  padding: auto;
+}
+.main {
+  width: 100%;
+  background: fixed, url(images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+
+}
+.icon {
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+.logo {
+  color: yellow;
+  font-size: 30px;
+  font-family: arial;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.menu {
+  width: 400px;
+  height: 70px;
+  float: left;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: large;lkp-0;
+}
+ul li a{
+  text-decoration: none;
+  color:aqua;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  transition:0.4s ease-in-out;
+}
+ul li a:hover{
+  color:yellow ;
+}
+.search{
+  width:400px;
+  float:left;
+  margin-left: 700px;
+  margin-top: -50px;
+}
+.srch{
+  width:200px;
+  height:40px;
+  border:1px solid rgb(228, 208, 208);
+  background:transparent;
+ color:white;
+ font-family: arial;
+ font-size: 20px;
+ float:left; 
+ padding:15px;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+}
+.srch:focus{
+  outline: none;
+}
+.btn{
+  width:100px;
+  height:40px;
+  background-color: orangered;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  transition:0.4s;
+  cursor:pointer;
+  border:1px solid rgb(228, 208, 208);
+
+}
+.btn:hover{
+  background-color:#fff;
+  color:black;
+}
+.btn:focus{
+  outline: none;
+}
+.content{
+  width: 600px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position:relative;
+}
+
